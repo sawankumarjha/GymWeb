@@ -654,7 +654,17 @@ footer span {
 
 @media Screen and (min-device-width: 200px) and (max-device-width: 600px) {
     .navigation {
-        height: 12vh;
+        height: 6vh;
+    }
+
+    #navRight {
+        flex-direction: row-reverse;
+    }
+
+    #navRight a {
+        margin: 0px 5px;
+        padding: 6px 5px;
+        font-size: 10px;
     }
 
     .joinLeft {
